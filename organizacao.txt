@@ -1,0 +1,13 @@
+cursos: id_curso; nome; grade_curricular; modalidade; area_de_atuacao; nivel
+turmas: id_turma; cpf_professor; disciplina; id_curso; data_inicio; data_termino
+alunos:cpf_aluno, matricula, nome; id_turma
+professores: cpf_professor, id_turma, matricula_professor
+disciplina_aluno_curso: id_curso; id_aluno; disciplina
+
+
+
+
+
+modalidade: ead; presencial; remoto; semipresencial
+nivel: livre; workshop; aperfeicoamento; capacitacao, tecnico; graduaduacao; pos_graduacao_mba
+area_de_atuacao: frontend; backend; fullstack
